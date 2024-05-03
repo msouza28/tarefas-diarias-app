@@ -17,7 +17,7 @@ export default function TodoSumary({todos, deleteAllCompleted}: TodoSumaryProps)
             {completedTodos.length > 0 && (
                 <button
                 onClick={deleteAllCompleted}
-                className="text-red-400 hover:underline text-sm font-medium">
+                className="text-red-500 hover:underline text-sm font-medium">
                     Deletar tarefas concluídas.
                 </button>
             )}

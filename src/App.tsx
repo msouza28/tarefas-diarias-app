@@ -34,8 +34,9 @@ function deleteAllCompletedTodos(){
 }
 
   return (
-    <main className="py-10 h-screen space-y-5 overflow-y-auto">
-      <h1 className="font-bold text-3xl text-center uppercase">Diarefas</h1>
+    <main className="py-10 h-screen overflow-y-auto">
+      <h1 className="font-bold text-3xl text-center uppercase pb-5">Diarefas</h1>
+      <p className="max-w-screen-lg mx-auto text-xs font-medium text-red-300">*Não recarregue a página. As tarefas não são armazenadas.</p>
       <div className="max-w-screen-lg mx-auto bg-slate-200 rounded-md p-5 space-y-6">
         <AddTodoForm onSubmit={addTodo} />
         <TodoList 
