@@ -11,7 +11,7 @@ export default function TodoSumary({todos, deleteAllCompleted}: TodoSumaryProps)
 
     return(
         <div className="text-center space-y-2">
-            <p className="text-sm font-medium">
+            <p className="text-sm font-medium mt-2">
                 {completedTodos.length} / {todos.length} tarefas concluidas.
             </p>
             {completedTodos.length > 0 && (
