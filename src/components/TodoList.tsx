@@ -29,8 +29,8 @@ export default function TodoList({todos, onCompletedChange, onDelete}: TodoListP
         </div>
         {/* condicional direta para renderizar o ou nao */}
         {todos.length === 0 && (
-            <p className="text-center text-sm text-gray-500">
-                No todos yet. Add a new one above.
+            <p className="text-center text-base text-gray-500">
+                Nenhuma tarefa na lista
             </p>
         )}
         </>
