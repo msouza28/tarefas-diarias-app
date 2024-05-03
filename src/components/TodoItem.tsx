@@ -24,6 +24,5 @@ export default function TodoItem({todo, onCompletedChange, onDelete}: TodoItemPr
                 <Trash2 size={20} className="text-gray-500"/>
             </button>
         </div>
-
     )
 }
